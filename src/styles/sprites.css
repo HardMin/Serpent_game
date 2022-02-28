@@ -1,0 +1,59 @@
+/* 2022-02-26 19:21:57 */
+body,html{
+    margin: 0;padding: 0;overflow: hidden;
+}
+.root{
+    display: inline-block;
+    /* width: 100px;
+    height: 100px; */
+    /* background: red; */
+    /* padding: 10% 10%; */
+    position: absolute;
+    z-index: 1000;
+}
+
+.flechas{
+    margin: .2em;
+    padding: .2em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.level_1{
+    display: flex;
+    justify-content: center;
+}
+.level_2{
+    display: flex;
+    justify-content: center;
+}
+.level_2 .flechas{
+    align-self: center;
+}
+.bloq{
+    display: flex;
+    margin-top: .2em;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background: #FFF;
+    border-radius: 50%;
+}
+.level_3{
+    display: flex;
+    justify-content: center;
+}
+
+.medidas{
+    position: absolute;
+    bottom: 0;
+}
+.medidas div{
+    margin: .4em 1em;
+}
+
