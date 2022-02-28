@@ -1,21 +1,3 @@
-// const http = require('http');
-
-// const sitioweb = (req, res) =>{
-//     res.writeHead(200, {'Content-type': 'text/plain'})
-//     res.end("HOLA MUNDO");
-// };
-
-// const server = http.createServer(sitioweb);
-
-// const server = http.createServer((req, res) => {
-    //     res.status = 200;
-    //     res.setHeader('Content-Type', 'text/plain');
-//     res.end('index')
-// });
-
-// server.listen(5000, '192.168.101.10');
-
-const http = require('http');
 const express = require('express');
 const path = require('path');
 const router = express.Router();
